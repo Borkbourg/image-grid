@@ -20,6 +20,7 @@ img {
   width: 100%;
   margin: 0;
   float: left;
+  display: inline-block;
 }
 
 body {
@@ -36,8 +37,8 @@ img:nth-last-of-type(4) {
 
 @media only screen and (min-width: 25em) {
 
-  img:nth-last-of-type(5){
-  width: 100%;
+  img:nth-last-of-type(5) {
+    width: 100%;
   }
 
   img:nth-last-of-type(4) {
